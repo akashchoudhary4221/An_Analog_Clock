@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+h1 {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#clockContainer {
+    position: relative;
+    height: 40vw;
+    width: 40vw;
+    background: url(analogclock.png) no-repeat;
+    background-size: 100%;
+    margin: auto;
+}
+
+#hour,
+#minute,
+#second {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour {
+    height: 23%;
+    width: 1.5%;
+    top: 27%;
+    left: 49%;
+    opacity: 0.7;
+}
+
+
+#minute {
+    height: 27%;
+    width: 1.5%;
+    top: 23%;
+    left: 49%;
+    opacity: 0.6;
+}
+
+#second {
+    height: 33%;
+    width: 1.5%;
+    top: 17%;
+    left: 49%;
+    opacity: 0.5;
+}
